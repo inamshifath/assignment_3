@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+.all_text{
+    font-family: Manrope;
+}
+/* main section 2 */
+.s2_div_item1_writting{
+    position:absolute;
+    z-index: 10;
+}
+/* media query main section 2 */
+@media only screen and (max-width: 600px) {
+    .image_hight{
+        height: 16rem;
+    }
+}
+/* main section 3 */
+@media only screen and (max-width: 600px) {
+    .s2_item_img{
+        margin: 0 auto;
+        width: 90%;
+        height: 50%;
+        margin-bottom: 4%;
+    }
+    .s2_item_writting{
+        margin:0 auto ;
+        width: 90%;
+    }
+}
+/* main section 4 */
+.main_s4>input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+}
+.main_s4_placehorder_width{
+    width: 30rem;
+}
+@media only screen and (max-width: 600px) {
+    .main_s4_placehorder_width{
+        width: 100%;
+    }
+}
+
+/* footer section  */
+@media only screen and (max-width: 600px) {
+    .footer_section{
+        padding: 0 21%;
+        
+    }
+    .footer_section_1{
+        text-align: center;
+    }
+    .footer_section_2{
+        margin-left: 100%;
+    }
+    .footer_section_3{
+        margin-bottom: 10%;
+    }
+}
+/* question section */
+.question_section{
+    height: 65%;
+    width: 100%;
+}
+.section_q_h{
+    width: 40%;
+}
+@media only screen and (max-width: 600px) {
+    .section_q_h{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+}
+/* main section */
+@media only screen and (max-width: 600px) {
+    main{
+        padding: 0 15px;
+    }
+}
+/* header section */
+@media only screen and (max-width: 600px) {
+    .head_padding {
+        padding: 0 15px;
+    }
+}
